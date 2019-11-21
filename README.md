@@ -4,7 +4,7 @@ Die PREDECY API ist eine REST-API, welche zum Lesen von Prognoseergebnissen folg
 
 __1. Verfügbarkeit von Prognosedaten abrufen__
 
-__URL__: https://api.predecy.de/predecy/rest/data/getDataAvailability  
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getDataAvailability  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
@@ -77,7 +77,7 @@ __Response__:
   
 __2. Prognosedaten abfragen__
 
-__URL__: https://api.predecy.de/predecy/predecy/rest/data/getData 
+__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getData 
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
