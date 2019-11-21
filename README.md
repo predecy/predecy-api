@@ -23,15 +23,15 @@ __Response__:
     * __date_max (Date)__: das obere Datum, für das Ergebnisse vorliegen
     * __units (JSON-Array)__: die verfügbaren Units
       * __unit_id (Integer)__: die Unit-ID
-      * __name (String)__: der Name der  Unit
+      * __unit_name (String)__: der Name der  Unit
     * __locations (JSON-Array)__: die verfügbaren Locations
       * __location_id (Integer)__: die Location-ID
-      * __name (String)__: der Name der Location
+      * __location_name (String)__: der Name der Location
       * __lat (Float)__: Geokoordinate Latitude der Location (WGS84)
       * __lng (Float)__: Geokoordinate Longitude der Location (WGS84)
     * __event_customers (JSON-Array)__: die Event-Customers, für die Ergebnisse vorliegen
       * __event_customer_id (Integer)__: die Event-Customer-ID
-      * __name (String)__: der Name des Event-Customers
+      * __event_customer_name (String)__: der Name des Event-Customers
       * __key (String)__: ein Key zur spezifischen Beschreibung des Event-Customers (z.B. Kundennummer)
   
   Beispiel: 
@@ -45,27 +45,28 @@ __Response__:
             "date_max": "2019-07-31",
             "units": [
                 {
-                    "unit_id": 1,
-                    "name": "Produkt A"
+                    "unit_id": 693,
+                    "unit_name": "Produkt A"
                 }
             ],
             "locations": [
                 {
-                    "location_id": 1,
-                    "name": "Stuttgart",
+                    "location_id": 996,
+                    "location_name": "Stuttgart",
                     "lat": 48.78,
-                    "lng": 9.18
+                    "lng": 9.18,
+                    "location_nr": "H7B3"
                 }
             ],
             "event_customers": [
                 {
-                    "event_customer_id": 1,
-                    "name": "Curcuma Solutions GmbH",
+                    "event_customer_id": 492,
+                    "event_customer_name": "Curcuma Solutions GmbH",
                     "key": "16543"
                 },
                 {
-                    "event_customer_id": 3,
-                    "name": "Basil KG",
+                    "event_customer_id": 753,
+                    "event_customer_name": "Basil KG",
                     "key": "28753"
                 }
             ]
@@ -93,12 +94,12 @@ __Body (Parameter als JSON-Objekt)__:
   ```
   {
     "api_key": "103504d8-05fd-1ea-9d18-0242d0a8d003",
-    "event_type_description_id": 1,
-    "event_customer_id": 1,
-    "unit_id": 1,
-    "location_id": 1,
     "limit": 1,
-    "offset": 0
+    "offset": 0,
+    "event_type_description_id": 1,
+    "event_customer_id": 492,
+    "unit_id": 693,
+    "location_id": 996
   }
   ```
   
@@ -143,35 +144,36 @@ __Response__:
           "event_type_description_id": 1,
           "limit": 10000,
           "offset": 0,
-          "event_customer_id": 1,
-          "unit_id": 1,
-          "location_id": 1
+          "event_customer_id": 492,
+          "unit_id": 693,
+          "location_id": 996
       },
       "result_count": 1,
       "result": [
           {
               "event_id": "3619228",
-              "client_id": 1,
-              "location_id": 1,
-              "unit_id": 1,
               "event_type_description_id": 1,
-              "event_customer_id": 1,
-              "date_of_event": "2019-07-20T00:00",
-              "date_of_prediction": "2019-07-15T13:50:56",
+              "client_id": 17553,
               "amount": 115391.28860907062,
               "uncertainty_of_amount_by_model": 7260.369419546308,
               "uncertainty_of_amount_by_features": 0.0,
-              "unit_nr": "1",
-              "name": "Produkt A",
-              "metadata": null,
-              "units_of_unit": "Stück",
-              "conversion_to_global_aggregation": 1.0,
+              "date_of_event": "2019-07-20T00:00",
+              "date_of_prediction": "2019-07-15T13:50:56",
+              "location_id": 1,
+              "location_name": "Stuttgart",
+              "location_nr": "H7B3",
+              "country_code": "DE",
+              "postal_code": "70176.0",
               "lat": 48.78,
               "lng": 9,18,
-              "location_nr": null,
-              "postal_code": "70176.0",
-              "country_code": "DE",
-              "key": "16543"
+              "unit_id": 693,
+              "unit_name": "Produkt A",
+              "unit_nr": "18432",
+              "units_of_unit": "Stück",
+              "conversion_to_global_aggregation": 1.0,
+              "event_customer_id": 492,
+              "event_customer_name": "Curcuma Solutions GmbH",
+              "key": "16543"  
           }
       ]
   }
