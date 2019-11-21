@@ -82,12 +82,12 @@ __Method__: POST
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
   * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
-  * __event_type_description_id (Integer) _optional_ __: Auswahl der Ergebnisse nach Event-Type-Description-ID; 1: Prognose (default), 11: Validierung
-  * __event_customer_id (Integer) _optional_ __: Filter nach Event-Customer-ID; 0 für alle verfügbaren Event-Customer-IDs (default)
-  * __unit_id (Integer) _optional_ __: Filter nach Unit-Id; 0 für alle verfügbaren Unit-IDs (default)
-  * __location_id (Integer) _optional_ __: Filter nach Location-Id; 0 für alle verfügbaren Location-IDs (default)
-  * __limit (Integer) _optional_ __: Anzahl der Ergebnisse beschränken (0 < limit <= 10000); default ist 10000
-  * __offset (Integer) _optional_ __: Offset, um weitere _limit_ Ergebnisse abzufrufen (offset >= 0; default ist 0 
+  * **event_type_description_id (Integer) _optional_**: Auswahl der Ergebnisse nach Event-Type-Description-ID; 1: Prognose (default), 11: Validierung
+  * **event_customer_id (Integer) _optional_**: Filter nach Event-Customer-ID; 0 für alle verfügbaren Event-Customer-IDs (default)
+  * **unit_id (Integer) _optional_**: Filter nach Unit-Id; 0 für alle verfügbaren Unit-IDs (default)
+  * **location_id (Integer) _optional_**: Filter nach Location-Id; 0 für alle verfügbaren Location-IDs (default)
+  * **limit (Integer) _optional_**: Anzahl der Ergebnisse beschränken (0 < limit <= 10000); default ist 10000
+  * **offset (Integer) _optional_**: Offset, um weitere _limit_ Ergebnisse abzufrufen (offset >= 0; default ist 0 
 
   Beispiel:  
   ```
