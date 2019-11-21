@@ -123,11 +123,8 @@ __Response__:
     * __event_customer_id (Integer)__: gewählter Filter nach Event-Customer-ID
     * __unit_id (Integer)__: gewählter Filter nach Unit-Id
     * __location_id (Integer)__: gewählter Filter nach Location-Id
-    
   * __result_count (Integer)__: Anzahl der Ergebnisse
-  
   * __result (JSON-Array)__: die Ergebnisse als Liste
-  
       * __event_id (String)__: die ID des Events als Primärschlüssel
       * __event_type_description_id (Integer)__: die Event-Type-Description-ID für das Ergebnis
       * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
@@ -136,7 +133,6 @@ __Response__:
       * __uncertainty_of_amount_by_features (Float)__: die Unsicherheit des berechneten Ergebniswerts durch die Features
       * __date_of_event (DateTime)__: das Datum des Ereignisses, an dem das Ergebnis Gültigkeit hat
       * __date_of_prediction (DateTime)__: das Datum der Berechnung der Vorhersage
-      
       * __location_id (Integer)__: die Location-ID für das Ergebnis
       * __location_name (Integer)__: der Name der Location für das Ergebnis
       * __location_nr (String)__: eine beschreibende Nummer der Location
@@ -144,13 +140,11 @@ __Response__:
       * __postal_code (Float)__: die Postleitzahl
       * __lat (Float)__: Geokoordinate Latitude der Location (WGS84)
       * __lng (Float)__: Geokoordinate Longitude der Location (WGS84)
-      
       * __unit_id (Integer)__: die Unit-ID für das Ergebnis
       * __unit_name (String)__: der Name der Unit
       * __unit_nr (String)__: eine beschreibene Nummer der Unit (z.B. Artikelnummer)
       * __units_of_unit (String)__: Die Einheit der Unit (z.B. kg, Liter, Stück)
       * __conversion_to_global_aggregation (Float)__: Konversionsfaktor, um das Ergebnis global aggregieren zu können 
-      
       * __event_customer_id (Integer)__: die Event-Customer-ID für das Ergebnis
       * __event_customer_name (String)__: der Name des Event-Customers
       * __key (String)__: ein Key zur spezifischen Beschreibung des Event-Customers (z.B. Kundennummer)
