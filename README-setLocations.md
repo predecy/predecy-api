@@ -6,14 +6,14 @@ __URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/setUnits
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
-  * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
-  * __locations (JSON-Array)__: die Locations, welche neu angelegt werden sollen
-    * **name (Integer) _optional_**: der Name der Location
-    * **location_nr (String) _optional_**: eine beschreibende Nummer der Location
-    * __country_code (String)__: der Ländercode
-    * __postal_code (Float)__: die Postleitzahl
-    * __lat (Float)__: Geokoordinate Latitude der Location (WGS84)
-    * __lng (Float)__: Geokoordinate Longitude der Location (WGS84)
+* __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
+* __locations (JSON-Array)__: die Locations, welche neu angelegt werden sollen
+  * **name (Integer) _optional_**: der Name der Location
+  * **location_nr (String) _optional_**: eine beschreibende Nummer der Location
+  * __country_code (String)__: der Ländercode
+  * __postal_code (Float)__: die Postleitzahl
+  * __lat (Float)__: Geokoordinate Latitude der Location (WGS84)
+  * __lng (Float)__: Geokoordinate Longitude der Location (WGS84)
 
   Beispiel:  
   ```
