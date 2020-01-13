@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: getUnits
+## PREDECY API Dokumentation: getUnits
 
 __Units abfragen__
 
