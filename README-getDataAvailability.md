@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: getDataAvailability
+## PREDECY API Dokumentation: getDataAvailability
 
 __Verfügbarkeit von Prognosedaten abrufen__
 
