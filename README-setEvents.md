@@ -48,7 +48,7 @@ __Response__:
   ```
 
 
-__2. Updaten bestehender Locations__
+__2. Updaten bestehender Events__
 
 __URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/setEvents
 __Method__: POST  
