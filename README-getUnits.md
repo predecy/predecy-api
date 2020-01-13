@@ -17,7 +17,7 @@ __Body (Parameter als JSON-Objekt)__:
   
 __Response__:
   * __units (JSON-Array)__: die Units, welche mit der Client-ID für den abgefragten _API-Key_ verknüpft sind
-      * __unit_id (Integer)__: die Unit-ID für das Ergebnis
+      * __unit_id (Integer)__: die Unit-ID
       * __unit_name (String)__: der Name der Unit
       * __unit_nr (String)__: eine beschreibene Nummer der Unit (z.B. Artikelnummer)
       * __units_of_unit (String)__: Die Einheit der Unit (z.B. kg, Liter, Stück)
@@ -32,7 +32,7 @@ __Response__:
               "unit_name": "Produkt A",
               "unit_nr": "18432",
               "units_of_unit": "Stück",
-              "conversion_to_global_aggregation": 1.0,
+              "conversion_to_global_aggregation": 1.0
           }
       ]
   }

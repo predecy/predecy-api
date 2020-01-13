@@ -1,6 +1,6 @@
 ## PREDECY API Dokumentation v2: getData
 
-__2. Prognosedaten abfragen__
+__Prognosedaten abfragen__
 
 __URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getData 
 __Method__: POST  
@@ -90,7 +90,7 @@ __Response__:
               "country_code": "DE",
               "postal_code": "70176.0",
               "lat": 48.78,
-              "lng": 9,18,
+              "lng": 9.18,
               "unit_id": 693,
               "unit_name": "Produkt A",
               "unit_nr": "18432",
