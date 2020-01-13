@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: setLocations
+## PREDECY API Dokumentation: setLocations
 
 __1. Anlegen von Locations__
 
