@@ -19,7 +19,7 @@ Die PREDECY API ist eine REST-API, welche folgende Methoden unterstützt:
 
   ### Verwalten von Event-Customers
 
-  * __[getEventCustomer: Event-Customers abfragen](README-getEventCustomer.md)__
-  * __[setLocations: Anlegen und updaten von Event-Customers](README-setEventCustomer.md)__
+  * __[getEventCustomer: Event-Customers abfragen](README-getEventCustomers.md)__
+  * __[setLocations: Anlegen und updaten von Event-Customers](README-setEventCustomers.md)__
   
 [Impressum](https://www.spicetech.de/#Impressum)
