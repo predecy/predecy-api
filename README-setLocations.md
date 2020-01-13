@@ -90,7 +90,7 @@ __Body (Parameter als JSON-Objekt)__:
   
 __Response__:
   * __locations (JSON-Array)__: die Locations, welche neu angelegt wurden
-      * __location_id (Integer)__: die aktualisierte Location-ID
+      * __location_id (Integer)__: die Location-ID
       * __location_name (Integer)__: der Name der Location
       * __location_nr (String)__: eine beschreibende Nummer der Location
       * __country_code (String)__: der Ländercode

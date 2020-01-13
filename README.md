@@ -7,6 +7,11 @@ Die PREDECY API ist eine REST-API, welche folgende Methoden unterstützt:
   * __[getDataAvailability: Verfügbarkeit von Prognosedaten abrufen](README-getDataAvailability.md)__
   * __[getData: Prognosedaten abfrage](README-getData.md)__
 
+  ### Verwalten von Events
+
+  * __[getEvents: Events abfragen](README-getEvents.md)__
+  * __[setEvents: Anlegen und updaten von Events](README-setEvents.md)__
+
   ### Verwalten von Units
 
   * __[getUnits: Units abfragen](README-getUnits.md)__
