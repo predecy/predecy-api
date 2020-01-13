@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: getData
+## PREDECY API Dokumentation: getData
 
 __Prognosedaten abfragen__
 
