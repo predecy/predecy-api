@@ -2,7 +2,7 @@
 
 __Locations abfragen__
 
-__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getLocations
+__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getLocations  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
