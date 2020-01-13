@@ -1,4 +1,6 @@
-__getDataAvailability: Verfügbarkeit von Prognosedaten abrufen__
+## PREDECY API Dokumentation v2: getDataAvailability
+
+__Verfügbarkeit von Prognosedaten abrufen__
 
 __URL__: https://datacenter.predecy.de/predecy-api/rest/data/getDataAvailability  
 __Method__: POST  
