@@ -83,4 +83,5 @@ __Response__:
   }
   ```
   
+  [Impressum](https://www.spicetech.de/#Impressum)
   
