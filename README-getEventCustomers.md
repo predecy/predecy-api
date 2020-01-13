@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: getEventCustomers
+## PREDECY API Dokumentation: getEventCustomers
 __EventCustomers abfragen__
 
 __URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getEventCustomers
