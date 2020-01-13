@@ -16,7 +16,7 @@ __Body (Parameter als JSON-Objekt)__:
   ```
   
 __Response__:
-  * __locations (JSON-Array)__: die Locatioins, welche mit der Client-ID für den abgefragten _API-Key_ verknüpft sind
+  * __locations (JSON-Array)__: die Locations, welche mit der Client-ID für den abgefragten _API-Key_ verknüpft sind
       * __location_id (Integer)__: die Location-ID
       * __name (Integer)__: der Name der Location
       * __location_nr (String)__: eine beschreibende Nummer der Location
