@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: getLocations
+## PREDECY API Dokumentation: getLocations
 
 __Locations abfragen__
 
