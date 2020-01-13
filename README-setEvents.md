@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: setEvents
+## PREDECY API Dokumentation: setEvents
 
 __1. Anlegen von Events__
 
