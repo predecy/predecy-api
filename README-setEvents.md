@@ -11,6 +11,7 @@ __Body (Parameter als JSON-Objekt)__:
     * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
+    * __date_of_event (DateTime)__: das Datum des Ereignisses
 
   Beispiel:  
   ```
@@ -20,7 +21,8 @@ __Body (Parameter als JSON-Objekt)__:
         {
             "event_type_description_id": 1,
             "client_id": 17553,
-            "amount": 115391.28860907062
+            "amount": 115391.28860907062,
+            "date_of_event": "2019-07-20T00:00"
         }
     ]
   }
@@ -32,6 +34,7 @@ __Response__:
     * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
+    * __date_of_event (DateTime)__: das Datum des Ereignisses
   
   Beispiel: 
   ```
@@ -41,7 +44,8 @@ __Response__:
                 "event_id": "3619228",
                 "event_type_description_id": 1,
                 "client_id": 17553,
-                "amount": 115391.28860907062
+                "amount": 115391.28860907062,
+                "date_of_event": "2019-07-20T00:00"
             }
         ]
   }
@@ -59,6 +63,7 @@ __Body (Parameter als JSON-Objekt)__:
     * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
+    * __date_of_event (DateTime)__: das Datum des Ereignisses
 
   Beispiel:  
   ```
@@ -69,7 +74,8 @@ __Body (Parameter als JSON-Objekt)__:
             "event_id": "3619228",
             "event_type_description_id": 1,
             "client_id": 17553,
-            "amount": 22999.3
+            "amount": 22999.3,
+            "date_of_event": "2019-07-20T00:00"
         }
     ]
   }
@@ -81,6 +87,7 @@ __Response__:
     * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
+    * __date_of_event (DateTime)__: das Datum des Ereignisses
   
   Beispiel: 
   ```
@@ -90,7 +97,8 @@ __Response__:
                 "event_id": "3619228",
                 "event_type_description_id": 1,
                 "client_id": 17553,
-                "amount": 22999.3
+                "amount": 22999.3,
+                "date_of_event": "2019-07-20T00:00"
             }
         ]
   }
