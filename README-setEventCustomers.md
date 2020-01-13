@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: setEventCustomers
+## PREDECY API Dokumentation: setEventCustomers
 
 __1. Anlegen von Event-Customers__
 
