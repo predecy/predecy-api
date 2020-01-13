@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation v2: setUnits
+## PREDECY API Dokumentation: setUnits
 
 __1. Anlegen von Units__
 
