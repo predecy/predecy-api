@@ -8,7 +8,6 @@ __Content-Type__: application/json
 __Body (Parameter als JSON-Objekt)__:
 * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
 * __events (JSON-Array)__: die Events, welche neu angelegt werden sollen
-    * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Ereignisses
@@ -19,7 +18,6 @@ __Body (Parameter als JSON-Objekt)__:
     "api_key": "103504d8-05fd-1ea-9d18-0242d0a8d003",  
     "events": [
         {
-            "event_type_description_id": 1,
             "client_id": 17553,
             "amount": 115391.28860907062,
             "date_of_event": "2019-07-20T00:00"
@@ -31,7 +29,6 @@ __Body (Parameter als JSON-Objekt)__:
 __Response__:
 * __events (JSON-Array)__: die Events, welche neu angelegt wurden
     * __event_id (String)__: die ID des Events als Primärschlüssel
-    * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Ereignisses
@@ -42,7 +39,6 @@ __Response__:
       "events": [
             {
                 "event_id": "3619228",
-                "event_type_description_id": 1,
                 "client_id": 17553,
                 "amount": 115391.28860907062,
                 "date_of_event": "2019-07-20T00:00"
@@ -61,7 +57,6 @@ __Body (Parameter als JSON-Objekt)__:
 * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
 * __events (JSON-Array)__: die Events, welche aktualisiert werden sollen
     * __event_id (String)__: die ID des Events als Primärschlüssel
-    * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Ereignisses
@@ -73,7 +68,6 @@ __Body (Parameter als JSON-Objekt)__:
     "events": [
         {
             "event_id": "3619228",
-            "event_type_description_id": 1,
             "client_id": 17553,
             "amount": 22999.3,
             "date_of_event": "2019-07-20T00:00"
@@ -85,7 +79,6 @@ __Body (Parameter als JSON-Objekt)__:
 __Response__:
  * __events (JSON-Array)__: die Events, welche neu angelegt wurden
     * __event_id (String)__: die ID des aktualisierten Events als Primärschlüssel
-    * __event_type_description_id (Integer)__: die Event-Type-Description-ID
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Ereignisses
@@ -96,7 +89,6 @@ __Response__:
       "events": [
             {
                 "event_id": "3619228",
-                "event_type_description_id": 1,
                 "client_id": 17553,
                 "amount": 22999.3,
                 "date_of_event": "2019-07-20T00:00"
