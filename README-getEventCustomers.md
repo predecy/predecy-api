@@ -23,7 +23,7 @@ __Response__:
   Beispiel: 
   ```
   {
-      "locations": [
+      "event_customers": [
           {
               "event_customer_id": 492,
               "name": "Curcuma Solutions GmbH",
