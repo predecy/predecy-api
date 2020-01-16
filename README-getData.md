@@ -2,7 +2,7 @@
 
 __Prognosedaten abfragen__
 
-__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getData 
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getData 
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:

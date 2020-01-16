@@ -2,7 +2,7 @@
 
 __1. Anlegen von Event-Customers__
 
-__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/setEventCustomers
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setEventCustomers
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
@@ -45,7 +45,7 @@ __Response__:
 
   __2. Updaten bestehender Locations__
 
-__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/setEventCustomers
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setEventCustomers
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:

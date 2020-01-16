@@ -1,7 +1,7 @@
 ## PREDECY API Dokumentation: getEventCustomers
 __EventCustomers abfragen__
 
-__URL__: https://datacenter.predecy.de/predecy-api/predecy/rest/data/getEventCustomers  
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getEventCustomers  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
