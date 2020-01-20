@@ -66,7 +66,7 @@ __Response__:
         }
     ] 
   }
-  :q```
+  ```
 
 
 __2. Updaten bestehender Events__
