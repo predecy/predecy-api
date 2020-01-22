@@ -2,7 +2,7 @@
 
 __1. Anlegen von Events__
 
-__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setEvents
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setEvents  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
@@ -17,7 +17,7 @@ __Body (Parameter als JSON-Objekt)__:
       * 11 = Validierung
       * 12 = Validierung, nicht aktuell
       * 21 = Messdaten, nicht aktuell
-    * **__event_customer_id (Integer) _optional_**: event_customer_id, Id des Kunden
+    * **event_customer_id (Integer), _optional_**: event_customer_id, Id des Kunden
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Events, retrospektiv oder prognostisch
     * **date_of_prediction (DateTime)_optional_**: das Datum, an dem die Prognose gemacht wurde
@@ -71,7 +71,7 @@ __Response__:
 
 __2. Updaten bestehender Events__
 
-__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setEvents
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setEvents  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
@@ -81,7 +81,7 @@ __Body (Parameter als JSON-Objekt)__:
     * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Ereignisses
-    * __VORSICHT!!!__: beim Update eines Events muss beachtet werden, dass sich durch das Update ein Event neu anlegt und das bisherige (im unteren Beispiel event_id:3791898) Event, die selbe event_id behält, die event_type_description_id aber auf 21 gesetzt wird. Dadurch werden auch Änderungen in der Datenbank verfolgt. Die Response bekommt von der Datenbank dann jeweils die letzte für das Event erstellte event_id (). Beim Update können auch Pflichtfelder, wie location_id, unit_id sowie event_customer_id weggelassen werden. 
+    * __HINWEIS__: Beim Update eines Events muss beachtet werden, dass durch das Update ein Event neu anlegt wird und das bisherige (im unteren Beispiel event_id:3791898) Event die selbe event_id behält, die event_type_description_id aber auf 21 (Messdaten, nicht aktuell) gesetzt wird. Dadurch werden auch Änderungen in der Datenbank verfolgt. Die Response bekommt von der Datenbank dann jeweils die letzte für das Event erstellte event_id. Beim Update können auch Pflichtfelder, wie location_id, unit_id sowie event_customer_id weggelassen werden. 
 
   Beispiel:  
   ```
