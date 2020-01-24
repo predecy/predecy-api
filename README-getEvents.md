@@ -2,7 +2,7 @@
 
 __Events abfragen__
 
-__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getEvents
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getEvents  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
@@ -28,11 +28,14 @@ __Response__:
   {
       "events": [
           {
-              "event_id": "3619228",
-              "event_type_description_id": 1,
-              "client_id": 17553,
-              "amount": 115391.28860907062,
-              "date_of_event": "2019-07-20T00:00"
+            "event_id": "3791919",
+            "location_id": 49,
+            "unit_id": 27,
+            "event_customer_id": 105,
+            "uncertainty_of_amount_by_model": null,
+            "uncertainty_of_amount_by_features": null,
+            "date_of_event": "2013-01-01T00:00",
+            "amount": 22998.3
           }
       ]
   }
