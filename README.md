@@ -2,12 +2,12 @@
 
 Die PREDECY API ist eine REST-API, welche folgende Methoden unterstützt:
 
-  ### 1. Verwalten von Units
+  ### 1a. Verwalten von Units
 
   * __[getUnits: Units abfragen](README-getUnits.md)__
   * __[setUnits: Anlegen und updaten von Units](README-setUnits.md)__
 
-  ### 1. Verwalten von Locations
+  ### 1b. Verwalten von Locations
 
   * __[getLocations: Locations abfragen](README-getLocations.md)__
   * __[setLocations: Anlegen und updaten von Locations](README-setLocations.md)__
@@ -20,11 +20,16 @@ Die PREDECY API ist eine REST-API, welche folgende Methoden unterstützt:
   ### 3. Verwalten von Events
 
   * __[getEvents: Events abfragen](README-getEvents.md)__
-  * __[setEvents: Anlegen und updaten von Events](README-setEvents.md)__  
+  * __[setEvents: Anlegen und updaten von Events](README-setEvents.md)__
 
-  ### 4. Lesen von Prognosedaten
+  ### 4. Verwalten von speziellen Zeitreihen (z. B. Marketingaktionen)
+
+  * __[getPrivateDataTypes: Private Data Types abfragen](README-getPrivateDataTypes.md)__
+  * __[setPrivateDataTypes: Anlegen und updaten von Private Data Types](README-setPrivateDataTypes.md)__
+
+  ### 5. Lesen von Prognosedaten
 
   * __[getDataAvailability: Verfügbarkeit von Prognosedaten abrufen](README-getDataAvailability.md)__
-  * __[getData: Prognosedaten abfrage](README-getData.md)__
+  * __[getData: Prognosedaten abfragen](README-getData.md)__
 
 [Impressum](https://www.spicetech.de/#Impressum)
