@@ -18,10 +18,14 @@ __Body (Parameter als JSON-Objekt)__:
 __Response__:
   * __events (JSON-Array)__: die Events, welche mit der Client-ID für den abgefragten _API-Key_ verknüpft sind
       * __event_id (String)__: die ID des Events als Primärschlüssel
-      * __event_type_description_id (Integer)__: die Event-Type-Description-ID
-      * __client_id (Intege)__: die Client-ID für den abgefragten _API-Key_
-      * __amount (Float)__: der Wert für den Event
+      * __location_id (Integer)__: die Location-ID des Events
+      * __unit_id (Integer)__: die Unit-ID für den abgefragten Event
+      * __event_customer_id (Integer)__: die ID des Kunden, bei dem sich der Event ereignet
+      * __uncertainty_of_amount_by_model (Float)__: Unsicherheit des verwendeten Vorhersagemodells
+      * __uncertainty_of_amount_by_features (Float)__: Unsicherheit der verwendeten Features (z. B. Wettervorhersage)
       * __date_of_event (DateTime)__: das Datum des Ereignisses
+      * __amount (Float)__: der Wert für den Event
+      
   
   Beispiel: 
   ```
