@@ -27,7 +27,7 @@ Die PREDECY API ist eine REST-API, welche folgende Methoden unterstützt:
   * __[getPrivateDataTypes: Private Data Types abfragen](README-getPrivateDataTypes.md)__    
   * __[setPrivateDataTypes: Anlegen und updaten von Private Data Types](README-setPrivateDataTypes.md)__  
   * __[getPrivateData: Private Data abfragen](README-getPrivateData.md)__
-  * __[setPrivateDataTypes: Anlegen und updaten von Private Data ](README-setPrivateData.md)__
+  * __[setPrivateData: Anlegen und updaten von Private Data ](README-setPrivateData.md)__
 
   ### 5. Lesen von Prognosedaten
 
