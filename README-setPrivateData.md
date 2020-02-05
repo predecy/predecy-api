@@ -33,7 +33,7 @@ __Body (Parameter als JSON-Objekt)__:
   
 __Response__:
   * __private_data (JSON-Array)__: die privateData
-      * __private_data_id (Integer)__: ID der private Data
+      * __private_data_id (Integer)__: ID der private Data (wird vom System automatisch vergeben)
       * __private_data_type_id (Integer)__: PrivateDataType-ID, z.B. ID von zugehöriger Werbeaktion 
       * __value (Float)__: Wert, z. B. Anzahl oder Preis, etc. 
       * __private_date (Datetime)__: Datum, an dem der Wert der private Data gilt
@@ -68,7 +68,7 @@ __Body (Parameter als JSON-Objekt)__:
   * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
   * __private_data (JSON-Array)__: privateData (z.B. Preisreduktion, Marketing, etc.), die geändert werden soll
     * __private_data_id (Integer)__:  privateData-ID, die geändert werden soll
-    * __private_data_type_id (Integer)__: privateDataType-ID, die für die private Data verwendet wird (siehe  __README-setPrivateDataTypes.md)__
+    * __private_data_type_id (Integer)__: privateDataType-ID, die für die private Data verwendet wird (siehe  [README-setPrivateDataTypes.md](https://github.com/predecy/predecy-api/blob/master/README-setPrivateDataTypes.md))
     * __value (Float)__: Wert, der privateData, z.B. Anzahl, oder Preis 
     * **unit_id (Integer), _optional_**: Unit-ID, für die die private Data gilt
     * **event_customer_id (Integer), _optional_**: Kunden-ID, für den die Marketing-/Preisaktion gilt (kann auch für alle gelten)
@@ -93,7 +93,7 @@ __Response__:
 
  * __private_data (JSON-Array)__: privateData (z.B. Preisreduktion, Marketing, etc.), aktualisiert
     * __private_data_id (Integer)__:  privateData-ID, die geändert wurde
-    * __private_data_type_id (Integer)__: privateDataType-ID, die für die private Data verwendet wurde (siehe  __README-setPrivateDataTypes.md)__, möglicherweise aktualisiert
+    * __private_data_type_id (Integer)__: privateDataType-ID, die für die private Data verwendet wurde (siehe [README-setPrivateDataTypes.md](https://github.com/predecy/predecy-api/blob/master/README-setPrivateDataTypes.md)), möglicherweise aktualisiert
     * __value (Float)__: Wert, der privateData, z.B. Anzahl, oder Preis, möglicherweise aktualisiert 
     * **unit_id (Integer), _optional_**: Unit-ID, für die die private Data gilt
     * **event_customer_id (Integer), _optional_**: Kunden-ID, für den die Marketing-/Preisaktion gilt (kann auch für alle gelten), möglicherweise aktualisiert

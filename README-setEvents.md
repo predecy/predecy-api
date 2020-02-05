@@ -39,8 +39,8 @@ __Body (Parameter als JSON-Objekt)__:
 __Response__:
 * __events (JSON-Array)__: die Events, welche neu angelegt wurden
     * __event_id (String)__: die ID des Events als Primärschlüssel
-    * __unit_id (Integer)__: die ID der Unit, auf das sich das Event b
-    * __location_id (Integer)__: die Location-ID an dem der Event stattfand, oder stattfinden wird
+    * __unit_id (Integer)__: die ID der Unit, auf das sich das Event bezieht
+    * __location_id (Integer)__: die Location-ID an dem der Event stattfindet
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Ereignisses
   
@@ -95,7 +95,7 @@ __Body (Parameter als JSON-Objekt)__:
 __Response__:
  * __events (JSON-Array)__: die Events, welche neu angelegt wurden
     * __event_id (Integer)__: die ID des aktualisierten Events als Primärschlüssel
-    * __location_id (Integer)__: die Location-ID, an dem ein Event stattfand/-findet
+    * __location_id (Integer)__: die Location-ID, an dem ein Event stattfindet
     * __unit_id (Integer)__: Unit-ID, für welche das Event gilt
     * __amount (Float)__: der Wert für den Event
     * __date_of_event (DateTime)__: das Datum des Events
