@@ -2,7 +2,7 @@
 
 __1. Abfragen von PrivateData__
 
-__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getPrivateData: 
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/getPrivateData  
 __Method__: POST  
 __Content-Type__: application/json  
 __Body (Parameter als JSON-Objekt)__:
@@ -18,8 +18,8 @@ __Body (Parameter als JSON-Objekt)__:
   
 __Response__:
   * __private_data (JSON-Array)__: die privateData
-      * __private_data_id (Integer)__: ID der private Data
-      * __private_data_type_id (Integer)__: PrivateDataType-ID, z.B. ID von zugehöriger Werbeaktion 
+      * __private_data_id (Integer)__: ID der private Data (wird vom System automatisch vergeben)
+      * __private_data_type_id (Integer)__: PrivateDataType-ID, z.B. ID von zugehöriger Werbeaktion (siehe __README-setPrivateDataTypes.md__)
       * __value (Float)__: Wert, z. B. Anzahl oder Preis, etc. 
       * __private_date (Datetime)__: Datum, an dem der Wert der private Data gilt
       * **uncertainty_of_value (Float), _optional_**: Unsicherheit, mit dem der Wert belastet ist

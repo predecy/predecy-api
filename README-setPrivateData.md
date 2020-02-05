@@ -8,7 +8,7 @@ __Content-Type__: application/json
 __Body (Parameter als JSON-Objekt)__:
   * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
   * __private_data (JSON-Array)__: neu anzulegende privateData (z.B. Preisreduktion, Marketing, etc.)
-    * __private_data_type_id (Integer)__: privateDataType-ID, die für die private Data verwendet wird (siehe  __README-setPrivateDataTypes.md)__
+    * __private_data_type_id (Integer)__: privateDataType-ID, die für die private Data verwendet wird (siehe  __README-setPrivateDataTypes.md__)
     * __value (Float)__: Wert, der privateData, z.B. Anzahl, oder Preis 
     * **unit_id (Integer), _optional_**: Unit-ID, für die die private Data gilt
     * **event_customer_id (Integer), _optional_**: Kunden-ID, für den die Marketing-/Preisaktion gilt (kann auch für alle gelten)
