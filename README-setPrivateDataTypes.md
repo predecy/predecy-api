@@ -1,4 +1,4 @@
-## PREDECY API Dokumentation: setPrivateDataType
+## PREDECY API Dokumentation: setPrivateDataTypes
 
 __1. Anlegen von PrivateDataTypes__
 
