@@ -54,7 +54,7 @@ __Content-Type__: application/json
 __Body (Parameter als JSON-Objekt)__:
   * __api_key (String)__: der API-Key zur Authentifizierung und Autorisierung
   * __private_data_types (JSON-Array)__: die privaten Daten (z.B. Werbeaktionen), die aktualisiert werden sollen 
-    * __name (String)__: Name, welche aktualisiert werden sollen
+    * __name (String)__: Name, der aktualisiert werden soll
     * **unit (Integer), _optional_**: Einheit der privaten Daten, z.B. Euro, Anzahl etc.
    
 
@@ -65,7 +65,7 @@ __Body (Parameter als JSON-Objekt)__:
      "private_data_types": [
 		{
             "private_data_type_id": 11,
-            "name": "werbeaktion2", 
+            "name": "werbeaktion", 
             "unit": "anzahl"
 		}
     ]
@@ -85,7 +85,7 @@ __Response__:
     "private_data_types": [
         {
             "private_data_type_id": 11,
-            "name": "werbeaktion2",
+            "name": "werbeaktion",
             "unit": "anzahl"
         }
     ]
