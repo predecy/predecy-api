@@ -26,7 +26,7 @@ __Body (Parameter als JSON-Objekt)__:
   ```
   
 __Response__:
-  * __units (JSON-Array)__: die Units, welche neu angelegt wurden
+  * __private_data_types (JSON-Array)__: die privateDataTypes, welche neu angelegt wurden
       * __private_data_type_id (Integer)__: die neue PrivateDataType-ID (wird vom System automatisch vergeben)
       * __name (String)__: Name der PrivateData, z.B. Marketing
       * __unit (String)__: Einheit der Private Data, z.B. Euro, wenn eine Marketingaktion einen Preis betrifft
@@ -48,7 +48,7 @@ __Response__:
 
 __2. Updaten bestehender Units__
   
-__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setUnits   
+__URL__: https://datacenter.predecy.de/predecy-api/rest/data/setPrivateDataTypes   
 __Method__: POST  
 __Content-Type__: application/json   
 __Body (Parameter als JSON-Objekt)__:
@@ -73,7 +73,7 @@ __Body (Parameter als JSON-Objekt)__:
   ```
   
 __Response__:
-  * __private_data_types (JSON-Array)__: private DataTypes, Unt
+  * __private_data_types (JSON-Array)__: private DataTypes, aktualisiert
       * __private_data_type_id (Integer)__: die aktualisierte privateDataType-ID
       * __name (String)__: der Name der privaten Daten
       * __unit (String)__: eine beschreibende Einheit, z.B. Euro, Anzahl
